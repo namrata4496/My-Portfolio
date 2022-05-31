@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namrata Sharma - About</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;700;400&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon(1).png" type="image/png">  
+</head>
+<body>
+  <button onclick=namo() class="collapsible_about">
+    <span style="font-size: 1.5em;" ><i class="fa-solid fa-bars"></i></span>
+  </button>
+  <div class="menu" id="mydiv">
+    <a  class="ali" href="./index.html">PROJECTS</a>
+    <span onclick=namo() class="ali" >ABOUT</span>
+    <a  class="ali"  target="_blank" href="./resume.pdf">RESUME</a>
+  
+  </div>
+  <div class="nami">
+  <nav class="navbar navbar-expand-lg my-4 mynav ">
+    <div class="container-fluid nv">
+     
+    
+      <div class=" container menu2">
+       
+      <ul class="d-flex justify-content-end navbar-nav ms-auto me-4 mb-2 mb-lg-0 navlinks">
+            
+            <li class="nav-item mx-3 font-weight-bolder "><a class="nav-link active1 " href="./index.html">PROJECTS</a></li>
+            <li class="nav-item mx-3 font-weight-bolder"><a class="nav-link active1 act" href="./about.html">ABOUT</a></li>
+            <li class="nav-item mx-3 font-weight-bolder"><a class="nav-link active1 " target="_blank" href="./resume.pdf">RESUME</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+      <div class="square square-lg square1"></div>
+    <h1 class="about_name container" >
+    OH. HELLO THERE!
+  </h1>
+      <div class="container aboutp1 about_aa " style="margin-bottom:4em;">
+        I love to develop because designing computer programs lets me use my creative and problem-solving skills.
+        I always try to find paths to learn something new and improve myself.
+        I believe consistency is one of the biggest factors to accomplishment and success. 
+      </div>
+
+      <div class="container">      
+      <div class=" conatiner wrapper" style="margin-bottom: 4em;">
+        <div class="sidebar">
+            <img class="img" src="/Images/about_photo.jpg">
+        </div>
+        <div class="main">
+
+            <p onmouseover="cl()" onmouseout="clb()" class="pad">
+              <span  class="main_heading hh">WHERE I CAME FROM</span><br>
+              I was born in Jharkhad, India. After passing my high school from DAV Public School, Jamshedpur  in 2019,
+              I moved to Deoghar(Jharkhand) for my BTech undergraduate studies in computer science where
+              I developed my interest in Web Development and commpetitive programming and got the opportunity to learn
+              many technologies to persue my career as a potential developer.
+              I am likely to complete my bachelors degree in 2024. 
+            </p>
+
+            <p  onmouseover="cl()" onmouseout="clb()" class="pad">
+              <span class="main_heading hh">WHERE I’M GOING</span><br>
+              As a front-end web developer, I try to keep my web designs simple and elegant.
+              For the next chapter of my life, I’m focusing on strengthening my problem solving skills and scaling
+              up my rank on different coding competitions across the world.
+              In parallel, I'm also fine-tuning my skills on Reactjs.
+            </p>
+
+            <p  onmouseover="cl()" onmouseout="clb()" class="pad">
+              <span class="main_heading hh">MEANWHILE</span><br>
+              Whenever i get spare time, I like to explore new places and different foods. 
+              A dream of mine is to one day own a travel journal with 100s of pages about my travel stories.
+              That’s a little about me; I’d love to hear from you!
+              You can reach me via email, connect with me on LinkedIn.
+            </p>
+
+        </div></div>
+       
+      </div>
+      <div class=" container-fluid " style="  background-color: #dbd9eb;">
+        <p class="container footer">
+        Let's connect<br>
+        <a href="mailto:snamrata4496@gmail.com" style="color: #5c52a8; text-decoration: none;"><i class="fa-solid fa-envelope"></i> snamrata4496@gmail.com<br>
+         <a href="https://www.linkedin.com/in/namrata-sharma-a6ba96200" target="_blank" style="text-decoration: none; color: #5c52a8;"> <i class="fa-brands fa-linkedin"></i> Linkedin</a></a></p>
+
+        <span class="container " style="color: #5c52a8; font-weight: 400; "><img src="favicon(1).png" style="width:20px">
+          &#169;Namrata Sharma 2022
+        </span>
+      </div>
+</div>
+      <script>
+        function cl() {
+         var e= document.querySelectorAll(".hh")
+         for(var i=0;i<e.length;i++){
+           var cur=e[i];
+           cur.style.boxShadow= "inset 250px 0 0 0 #dbd9eb";
+         }
+        }
+        
+        function clb() {
+          
+          var e= document.querySelectorAll(".hh")
+         for(var i=0;i<e.length;i++){
+           var cur=e[i];
+           cur.style.boxShadow= "inset 0px 0 0 0 #dbd9eb";
+         }
+        }
+
+        function namo(){
+      var col=document.querySelector(".collapsible_about");
+      cc=document.querySelector(".menu");
+      c=document.querySelector(".nami")
+      if (cc.style.display === "flex") {
+        cc.style.display = "none";
+        col.style.backgroundColor="white";
+        c.style.display="block";
+      } else {
+        cc.style.display = "flex";
+        col.style.backgroundColor="#dbd9eb";
+        c.style.display="none";
+      }   
+  }
+        </script>
+</body>
+</html>
